@@ -1,0 +1,24 @@
+{
+	"author": "Romain Faust <romain.faust@gmail.com>",
+	"description": "Shared Prettier configuration",
+	"devDependencies": {
+		"prettier": "~2.0.5"
+	},
+	"files": [
+		"index.js"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "@romain-faust/prettier-config",
+	"peerDependencies": {
+		"prettier": ">=2.0.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/romain-faust/prettier-config.git"
+	},
+	"scripts": {
+		"format": "prettier --write index.js"
+	},
+	"version": "1.0.0"
+}
